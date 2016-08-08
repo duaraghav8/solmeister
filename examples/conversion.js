@@ -6,7 +6,7 @@
 
 'use strict';
 
-let i = require ('./github/solmeister'),
+let i = require ('solmeister'),
 	code = 'contract Visual {\n\tuint[] x = [13,212,334,44,52];\n\tMIxEDCaSEvAr = 100;\n}';
 
 let output = i.edit (code, function (node) {
