@@ -1,0 +1,26 @@
+{
+  "name": "solmeister",
+  "version": "0.0.0",
+  "description": "AST traversal-based code editing for Solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duaraghav8/solmeister.git"
+  },
+  "keywords": [
+    "Solidity",
+    "AST"
+  ],
+  "author": "Raghav Dua <duaraghav8@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duaraghav8/solmeister/issues"
+  },
+  "homepage": "https://github.com/duaraghav8/solmeister#readme",
+  "dependencies": {
+    "solparse": "^1.0.0"
+  }
+}
