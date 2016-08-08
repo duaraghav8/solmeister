@@ -24,7 +24,7 @@ module.exports = {
 			sourceCode = sourceCode.toString ();
 		}
 
-		result = sourceCode;
+		result = sourceCode.split ('');
 		AST = solidityParser.parse (sourceCode);
 
 		solExplore.traverse (AST, {
@@ -43,7 +43,10 @@ module.exports = {
 						);
 					}
 
-					result = result.slice (0, node.start) + newSourceCode + result.slice (node.end);
+					result [node.start] = newSourceCode;
+					for (var i = node.start + 1; i < node.end; i++) {
+						result [i] = '';
+					}
 				}
 
 				callback (node);
@@ -52,7 +55,7 @@ module.exports = {
 
 		});
 
-		return result;
+		return result.join ('');
 
 	}
 
