@@ -1,5 +1,5 @@
 /**
- * @fileoverview Main Solium object definition
+ * @fileoverview Definition of code edit () method and main functionality exporter for solmeister
  * @author Raghav Dua <duaraghav8@gmail.com>
  */
 
