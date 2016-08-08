@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/duaraghav8/solmeister#readme",
   "dependencies": {
+    "sol-explore": "^1.6.1",
     "solparse": "^1.0.0"
   }
 }
